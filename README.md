@@ -74,8 +74,8 @@ data_root/
 
 ## Quick Start
 
-![image.png](https://article.biliimg.com/bfs/article/87d42a66fa5b1066f75d57af69458c5f3dabf0bb.png)
 
+<img src="[https://github.com/clovaai/PointWSSIS/releases/download/Figures/pseudo_label.png](https://article.biliimg.com/bfs/article/87d42a66fa5b1066f75d57af69458c5f3dabf0bb.png)" width="100%"/>
 
 1. 用10%的全标签训练教师网络 
 2. 用90%的点标签训练教师网络 
