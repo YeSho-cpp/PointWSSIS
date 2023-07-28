@@ -74,10 +74,15 @@ data_root/
 
 ## Quick Start
 
-1. Training teacher network using strong labels
-2. Training MaskRefineNet using strong labels
-3. Generating pseudo labels using weak labels
-4. Training student network using strong and pseudo labels
+![image.png](https://article.biliimg.com/bfs/article/87d42a66fa5b1066f75d57af69458c5f3dabf0bb.png)
+
+
+1. 用10%的全标签训练教师网络 
+2. 用90%的点标签训练教师网络 
+3. 将全标签和点标签合并训练教师网络 
+4. 用全标签训练出最好点的特征级别 
+5. 用复合标签训练MaskRefineNet 
+6. 训练学生网络 
 
 Run all-in-one script.
 ~~~
