@@ -49,7 +49,7 @@ def maskToanno(ground_truth_mask,ann_count,segmentation_id):
     annotations.append(annotation)
     segmentation_id += 1
   return annotations,segmentation_id
-def get_point_annotations(input_filename, output_filename,block_mask_path):
+def get_annotations(input_filename, output_filename,block_mask_path):
   block_mask_image_files = os.listdir(block_mask_path)
   with open(input_filename, "r") as f:
     coco_json = json.load(f)
